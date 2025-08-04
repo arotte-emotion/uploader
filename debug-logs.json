@@ -1,0 +1,824 @@
+[
+  {
+    "timestamp": "2025-08-01T12:09:52.662Z",
+    "level": "INFO",
+    "message": "Bildverarbeitung gestartet...",
+    "data": "{\n  \"hasFile\": true,\n  \"fileSize\": 11822,\n  \"contentType\": \"text/plain\"\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:09:52.667Z",
+    "level": "INFO",
+    "message": "Lade Briefing-Text...",
+    "data": "{\n  \"filePath\": \"C:\\\\Users\\\\a.rotte_emotion-ebik\\\\Documents\\\\Cursor Projekte\\\\Briefing Upload\\\\uploads\\\\briefing-1754050192659-396593031.txt\",\n  \"hasBuffer\": false,\n  \"bufferSize\": 0\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:09:52.669Z",
+    "level": "INFO",
+    "message": "Briefing-Text geladen",
+    "data": "{\n  \"textLength\": 11661,\n  \"firstLines\": [\n    \"﻿Slug: /e-bike-infos/kaufberatung/e-bike-gangschaltungen/\\r\",\n    \"\\r\",\n    \"local: de,at,ch\\r\",\n    \"MT: Elektro Fahrrad mit Gangschaltung - einfach erklärt! Jetzt richtig schalten\\r\",\n    \"MD: Kettenschaltung, Automatikschaltung oder Nabenschaltung? Unsere Expert:innen finden die richtige Schaltung für dich!\\r\"\n  ]\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:09:52.671Z",
+    "level": "INFO",
+    "message": "Validiere Briefing-Format...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:09:52.672Z",
+    "level": "INFO",
+    "message": "Briefing-Validierung abgeschlossen",
+    "data": "{\n  \"isValid\": true,\n  \"errors\": [\n    \"[Produkt] oder [Produkte] Marker fehlt (optional)\"\n  ],\n  \"missingFields\": []\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:09:52.674Z",
+    "level": "INFO",
+    "message": "Extrahiere Bildlinks...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:09:52.680Z",
+    "level": "INFO",
+    "message": "Bildlink-Extraktion abgeschlossen",
+    "data": "{\n  \"totalLinks\": 5,\n  \"links\": [\n    {\n      \"url\": \"https://drive.google.com/file/d/1qf6QXc8tMGkc9byVU3SwMqNmCTL4L2GY/view\",\n      \"lineNumber\": 8,\n      \"isConverted\": false\n    },\n    {\n      \"url\": \"https://drive.google.com/file/d/1wVbfn8XFJa1pqORgqOlK8OP-1pziqp0X/view\",\n      \"lineNumber\": 29,\n      \"isConverted\": false\n    },\n    {\n      \"url\": \"https://drive.google.com/file/d/1RXKN7LjKMBv-JleoFcCgp2YyTecTx3BO/view\",\n      \"lineNumber\": 45,\n      \"isConverted\": false\n    },\n    {\n      \"url\": \"https://drive.google.com/file/d/1Ib8FB-3TakDMRvvuO4XruMRVJW7-lTcg/view\",\n      \"lineNumber\": 61,\n      \"isConverted\": false\n    },\n    {\n      \"url\": \"https://drive.google.com/file/d/1GUwcVnOfkQWrV8e-nIiBYdzrweTmqn9b/view\",\n      \"lineNumber\": 77,\n      \"isConverted\": false\n    }\n  ]\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:12:40.613Z",
+    "level": "INFO",
+    "message": "Contentful Upload gestartet...",
+    "data": "{\n  \"hasImages\": true,\n  \"imagesCount\": 5,\n  \"requestBody\": [\n    \"images\"\n  ]\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:12:40.615Z",
+    "level": "INFO",
+    "message": "Starte Upload von 5 Bildern zu Contentful...",
+    "data": "{\n  \"imageFilenames\": [\n    \"enviolo Nabenschaltung .png\",\n    \"Nabenschaltung.png\",\n    \"Kettenschaltung.png\",\n    \"Automatikschaltung.png\",\n    \"e-Bike Beratung von Oli.P.png\"\n  ]\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:13:07.244Z",
+    "level": "INFO",
+    "message": "Starte detaillierten Contentful-Verbindungstest...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:13:07.256Z",
+    "level": "INFO",
+    "message": "Initialisiere Contentful Client...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:13:07.281Z",
+    "level": "INFO",
+    "message": "Teste Space-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:13:07.663Z",
+    "level": "INFO",
+    "message": "Space erfolgreich gefunden: e-motion",
+    "data": "{\n  \"spaceId\": \"is4lb5trkwgp\",\n  \"spaceName\": \"e-motion\"\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:13:07.669Z",
+    "level": "INFO",
+    "message": "Teste Environment-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:13:07.991Z",
+    "level": "INFO",
+    "message": "Environment erfolgreich gefunden: production",
+    "data": "{\n  \"environmentId\": \"master\",\n  \"environmentName\": \"production\"\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:13:07.995Z",
+    "level": "INFO",
+    "message": "Teste Content-Type-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:13:08.265Z",
+    "level": "INFO",
+    "message": "Content-Types erfolgreich abgerufen: 30",
+    "data": "{\n  \"contentTypeCount\": 30,\n  \"contentTypes\": [\n    {\n      \"id\": \"image\",\n      \"name\": \"🖼️Content: Bild\"\n    },\n    {\n      \"id\": \"pageStandard\",\n      \"name\": \"📑Page: Standard (PS)\"\n    },\n    {\n      \"id\": \"textButtonLink\",\n      \"name\": \"🖼️Content: Text Button Link (TBL)\"\n    },\n    {\n      \"id\": \"stepComponent\",\n      \"name\": \"🖼️Content: Step Komponente (SK)\"\n    },\n    {\n      \"id\": \"pageStore\",\n      \"name\": \"🏠Page: Händler (HS)\"\n    },\n    {\n      \"id\": \"pageStoreSubPage\",\n      \"name\": \"🏠Page: Händlerunterseite (HUS)\"\n    },\n    {\n      \"id\": \"imageGallery\",\n      \"name\": \"⚙️Component: Bildergallerie (BG)\"\n    },\n    {\n      \"id\": \"booking\",\n      \"name\": \"🔧Technical: Buchungsformular (BF) \"\n    },\n    {\n      \"id\": \"systemSettings\",\n      \"name\": \"🚧System: Settings \"\n    },\n    {\n      \"id\": \"contentOfferedService\",\n      \"name\": \"🖼️Content: Angebotene Leistung (ALE)\"\n    },\n    {\n      \"id\": \"componentOfferedServices\",\n      \"name\": \"⚙️Component: Angebotene Leistungen (ALC)\"\n    },\n    {\n      \"id\": \"blogOverview\",\n      \"name\": \"📑Page: Blog Übersichtsseite (BÜ)\"\n    },\n    {\n      \"id\": \"blogArticel\",\n      \"name\": \"📑Page: Blog Beitrag (BB)\"\n    },\n    {\n      \"id\": \"slider\",\n      \"name\": \"⚙️Component: Slider (SLI)\"\n    },\n    {\n      \"id\": \"youtube\",\n      \"name\": \"🖼️Content: Youtube Video (YT)\"\n    },\n    {\n      \"id\": \"brand\",\n      \"name\": \"🖼️Content: Marke\"\n    },\n    {\n      \"id\": \"styledListelement\",\n      \"name\": \"🖼️Content: Gestyltes Listenelement (GLE)\"\n    },\n    {\n      \"id\": \"autor\",\n      \"name\": \"🖼️Content: Autor\"\n    },\n    {\n      \"id\": \"styledList\",\n      \"name\": \"⚙️Component: Gestylte Liste (GLC)\"\n    },\n    {\n      \"id\": \"highlightedImageText\",\n      \"name\": \"🖼️Content: Bild-Text Kombi Hervorgehoben (BTH)\"\n    },\n    {\n      \"id\": \"heroElement\",\n      \"name\": \"🖼️Content: Hero Element (HE)\"\n    },\n    {\n      \"id\": \"teaserElement\",\n      \"name\": \"🖼️Content: Teaser Element (TE)\"\n    },\n    {\n      \"id\": \"accordion\",\n      \"name\": \"⚙️Component: Accordion (ACC)\"\n    },\n    {\n      \"id\": \"logowall\",\n      \"name\": \"⚙️Component: Logowall (LW)\"\n    },\n    {\n      \"id\": \"teaserGroup\",\n      \"name\": \"⚙️Component: Teaser Gruppe (TG)\"\n    },\n    {\n      \"id\": \"accordionElement\",\n      \"name\": \"🖼️Content: Accordion Element (TE)\"\n    },\n    {\n      \"id\": \"simpleImageText\",\n      \"name\": \"🖼️Content: Bild-Text Kombi Simpel (BTS)\"\n    },\n    {\n      \"id\": \"callToAction\",\n      \"name\": \"🖼️Content: Call to Action (CTA)\"\n    },\n    {\n      \"id\": \"logo\",\n      \"name\": \"🖼️Content: Logo\"\n    },\n    {\n      \"id\": \"richText\",\n      \"name\": \"🖼️Content: Rich-Text (RT)\"\n    }\n  ]\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:13:08.277Z",
+    "level": "INFO",
+    "message": "Teste Asset-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:13:08.621Z",
+    "level": "INFO",
+    "message": "Assets erfolgreich abgerufen: 100",
+    "data": "{\n  \"assetCount\": 100\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:13:08.632Z",
+    "level": "INFO",
+    "message": "Teste Entry-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:13:09.085Z",
+    "level": "INFO",
+    "message": "Entries erfolgreich abgerufen: 100",
+    "data": "{\n  \"entryCount\": 100\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:13:09.090Z",
+    "level": "INFO",
+    "message": "Contentful-Verbindungstest erfolgreich abgeschlossen",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:13:20.458Z",
+    "level": "INFO",
+    "message": "Starte detaillierten Contentful-Verbindungstest...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:13:20.460Z",
+    "level": "INFO",
+    "message": "Initialisiere Contentful Client...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:13:20.461Z",
+    "level": "INFO",
+    "message": "Teste Space-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:13:20.681Z",
+    "level": "INFO",
+    "message": "Space erfolgreich gefunden: e-motion",
+    "data": "{\n  \"spaceId\": \"is4lb5trkwgp\",\n  \"spaceName\": \"e-motion\"\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:13:20.685Z",
+    "level": "INFO",
+    "message": "Teste Environment-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:13:20.885Z",
+    "level": "INFO",
+    "message": "Environment erfolgreich gefunden: production",
+    "data": "{\n  \"environmentId\": \"master\",\n  \"environmentName\": \"production\"\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:13:20.886Z",
+    "level": "INFO",
+    "message": "Teste Content-Type-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:13:21.164Z",
+    "level": "INFO",
+    "message": "Content-Types erfolgreich abgerufen: 30",
+    "data": "{\n  \"contentTypeCount\": 30,\n  \"contentTypes\": [\n    {\n      \"id\": \"image\",\n      \"name\": \"🖼️Content: Bild\"\n    },\n    {\n      \"id\": \"pageStandard\",\n      \"name\": \"📑Page: Standard (PS)\"\n    },\n    {\n      \"id\": \"textButtonLink\",\n      \"name\": \"🖼️Content: Text Button Link (TBL)\"\n    },\n    {\n      \"id\": \"stepComponent\",\n      \"name\": \"🖼️Content: Step Komponente (SK)\"\n    },\n    {\n      \"id\": \"pageStore\",\n      \"name\": \"🏠Page: Händler (HS)\"\n    },\n    {\n      \"id\": \"pageStoreSubPage\",\n      \"name\": \"🏠Page: Händlerunterseite (HUS)\"\n    },\n    {\n      \"id\": \"imageGallery\",\n      \"name\": \"⚙️Component: Bildergallerie (BG)\"\n    },\n    {\n      \"id\": \"booking\",\n      \"name\": \"🔧Technical: Buchungsformular (BF) \"\n    },\n    {\n      \"id\": \"systemSettings\",\n      \"name\": \"🚧System: Settings \"\n    },\n    {\n      \"id\": \"contentOfferedService\",\n      \"name\": \"🖼️Content: Angebotene Leistung (ALE)\"\n    },\n    {\n      \"id\": \"componentOfferedServices\",\n      \"name\": \"⚙️Component: Angebotene Leistungen (ALC)\"\n    },\n    {\n      \"id\": \"blogOverview\",\n      \"name\": \"📑Page: Blog Übersichtsseite (BÜ)\"\n    },\n    {\n      \"id\": \"blogArticel\",\n      \"name\": \"📑Page: Blog Beitrag (BB)\"\n    },\n    {\n      \"id\": \"slider\",\n      \"name\": \"⚙️Component: Slider (SLI)\"\n    },\n    {\n      \"id\": \"youtube\",\n      \"name\": \"🖼️Content: Youtube Video (YT)\"\n    },\n    {\n      \"id\": \"brand\",\n      \"name\": \"🖼️Content: Marke\"\n    },\n    {\n      \"id\": \"styledListelement\",\n      \"name\": \"🖼️Content: Gestyltes Listenelement (GLE)\"\n    },\n    {\n      \"id\": \"autor\",\n      \"name\": \"🖼️Content: Autor\"\n    },\n    {\n      \"id\": \"styledList\",\n      \"name\": \"⚙️Component: Gestylte Liste (GLC)\"\n    },\n    {\n      \"id\": \"highlightedImageText\",\n      \"name\": \"🖼️Content: Bild-Text Kombi Hervorgehoben (BTH)\"\n    },\n    {\n      \"id\": \"heroElement\",\n      \"name\": \"🖼️Content: Hero Element (HE)\"\n    },\n    {\n      \"id\": \"teaserElement\",\n      \"name\": \"🖼️Content: Teaser Element (TE)\"\n    },\n    {\n      \"id\": \"accordion\",\n      \"name\": \"⚙️Component: Accordion (ACC)\"\n    },\n    {\n      \"id\": \"logowall\",\n      \"name\": \"⚙️Component: Logowall (LW)\"\n    },\n    {\n      \"id\": \"teaserGroup\",\n      \"name\": \"⚙️Component: Teaser Gruppe (TG)\"\n    },\n    {\n      \"id\": \"accordionElement\",\n      \"name\": \"🖼️Content: Accordion Element (TE)\"\n    },\n    {\n      \"id\": \"simpleImageText\",\n      \"name\": \"🖼️Content: Bild-Text Kombi Simpel (BTS)\"\n    },\n    {\n      \"id\": \"callToAction\",\n      \"name\": \"🖼️Content: Call to Action (CTA)\"\n    },\n    {\n      \"id\": \"logo\",\n      \"name\": \"🖼️Content: Logo\"\n    },\n    {\n      \"id\": \"richText\",\n      \"name\": \"🖼️Content: Rich-Text (RT)\"\n    }\n  ]\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:13:21.167Z",
+    "level": "INFO",
+    "message": "Teste Asset-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:13:21.503Z",
+    "level": "INFO",
+    "message": "Assets erfolgreich abgerufen: 100",
+    "data": "{\n  \"assetCount\": 100\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:13:21.505Z",
+    "level": "INFO",
+    "message": "Teste Entry-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:13:21.981Z",
+    "level": "INFO",
+    "message": "Entries erfolgreich abgerufen: 100",
+    "data": "{\n  \"entryCount\": 100\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:13:21.983Z",
+    "level": "INFO",
+    "message": "Contentful-Verbindungstest erfolgreich abgeschlossen",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:39:13.927Z",
+    "level": "INFO",
+    "message": "Starte detaillierten Contentful-Verbindungstest...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:39:13.929Z",
+    "level": "INFO",
+    "message": "Initialisiere Contentful Client...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:39:13.930Z",
+    "level": "INFO",
+    "message": "Teste Space-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:39:14.130Z",
+    "level": "INFO",
+    "message": "Space erfolgreich gefunden: e-motion",
+    "data": "{\n  \"spaceId\": \"is4lb5trkwgp\",\n  \"spaceName\": \"e-motion\"\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:39:14.131Z",
+    "level": "INFO",
+    "message": "Teste Environment-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:39:14.322Z",
+    "level": "INFO",
+    "message": "Environment erfolgreich gefunden: production",
+    "data": "{\n  \"environmentId\": \"master\",\n  \"environmentName\": \"production\"\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:39:14.326Z",
+    "level": "INFO",
+    "message": "Teste Content-Type-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:39:14.613Z",
+    "level": "INFO",
+    "message": "Content-Types erfolgreich abgerufen: 30",
+    "data": "{\n  \"contentTypeCount\": 30,\n  \"contentTypes\": [\n    {\n      \"id\": \"image\",\n      \"name\": \"🖼️Content: Bild\"\n    },\n    {\n      \"id\": \"pageStandard\",\n      \"name\": \"📑Page: Standard (PS)\"\n    },\n    {\n      \"id\": \"textButtonLink\",\n      \"name\": \"🖼️Content: Text Button Link (TBL)\"\n    },\n    {\n      \"id\": \"stepComponent\",\n      \"name\": \"🖼️Content: Step Komponente (SK)\"\n    },\n    {\n      \"id\": \"pageStore\",\n      \"name\": \"🏠Page: Händler (HS)\"\n    },\n    {\n      \"id\": \"pageStoreSubPage\",\n      \"name\": \"🏠Page: Händlerunterseite (HUS)\"\n    },\n    {\n      \"id\": \"imageGallery\",\n      \"name\": \"⚙️Component: Bildergallerie (BG)\"\n    },\n    {\n      \"id\": \"booking\",\n      \"name\": \"🔧Technical: Buchungsformular (BF) \"\n    },\n    {\n      \"id\": \"systemSettings\",\n      \"name\": \"🚧System: Settings \"\n    },\n    {\n      \"id\": \"contentOfferedService\",\n      \"name\": \"🖼️Content: Angebotene Leistung (ALE)\"\n    },\n    {\n      \"id\": \"componentOfferedServices\",\n      \"name\": \"⚙️Component: Angebotene Leistungen (ALC)\"\n    },\n    {\n      \"id\": \"blogOverview\",\n      \"name\": \"📑Page: Blog Übersichtsseite (BÜ)\"\n    },\n    {\n      \"id\": \"blogArticel\",\n      \"name\": \"📑Page: Blog Beitrag (BB)\"\n    },\n    {\n      \"id\": \"slider\",\n      \"name\": \"⚙️Component: Slider (SLI)\"\n    },\n    {\n      \"id\": \"youtube\",\n      \"name\": \"🖼️Content: Youtube Video (YT)\"\n    },\n    {\n      \"id\": \"brand\",\n      \"name\": \"🖼️Content: Marke\"\n    },\n    {\n      \"id\": \"styledListelement\",\n      \"name\": \"🖼️Content: Gestyltes Listenelement (GLE)\"\n    },\n    {\n      \"id\": \"autor\",\n      \"name\": \"🖼️Content: Autor\"\n    },\n    {\n      \"id\": \"styledList\",\n      \"name\": \"⚙️Component: Gestylte Liste (GLC)\"\n    },\n    {\n      \"id\": \"highlightedImageText\",\n      \"name\": \"🖼️Content: Bild-Text Kombi Hervorgehoben (BTH)\"\n    },\n    {\n      \"id\": \"heroElement\",\n      \"name\": \"🖼️Content: Hero Element (HE)\"\n    },\n    {\n      \"id\": \"teaserElement\",\n      \"name\": \"🖼️Content: Teaser Element (TE)\"\n    },\n    {\n      \"id\": \"accordion\",\n      \"name\": \"⚙️Component: Accordion (ACC)\"\n    },\n    {\n      \"id\": \"logowall\",\n      \"name\": \"⚙️Component: Logowall (LW)\"\n    },\n    {\n      \"id\": \"teaserGroup\",\n      \"name\": \"⚙️Component: Teaser Gruppe (TG)\"\n    },\n    {\n      \"id\": \"accordionElement\",\n      \"name\": \"🖼️Content: Accordion Element (TE)\"\n    },\n    {\n      \"id\": \"simpleImageText\",\n      \"name\": \"🖼️Content: Bild-Text Kombi Simpel (BTS)\"\n    },\n    {\n      \"id\": \"callToAction\",\n      \"name\": \"🖼️Content: Call to Action (CTA)\"\n    },\n    {\n      \"id\": \"logo\",\n      \"name\": \"🖼️Content: Logo\"\n    },\n    {\n      \"id\": \"richText\",\n      \"name\": \"🖼️Content: Rich-Text (RT)\"\n    }\n  ]\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:39:14.616Z",
+    "level": "INFO",
+    "message": "Teste Asset-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:39:14.913Z",
+    "level": "INFO",
+    "message": "Assets erfolgreich abgerufen: 100",
+    "data": "{\n  \"assetCount\": 100\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:39:14.916Z",
+    "level": "INFO",
+    "message": "Teste Entry-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:39:15.294Z",
+    "level": "INFO",
+    "message": "Entries erfolgreich abgerufen: 100",
+    "data": "{\n  \"entryCount\": 100\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:39:15.295Z",
+    "level": "INFO",
+    "message": "Contentful-Verbindungstest erfolgreich abgeschlossen",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:40:08.727Z",
+    "level": "INFO",
+    "message": "Starte detaillierten Contentful-Verbindungstest...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:40:08.728Z",
+    "level": "INFO",
+    "message": "Initialisiere Contentful Client...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:40:08.730Z",
+    "level": "INFO",
+    "message": "Teste Space-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:40:08.964Z",
+    "level": "INFO",
+    "message": "Space erfolgreich gefunden: e-motion",
+    "data": "{\n  \"spaceId\": \"is4lb5trkwgp\",\n  \"spaceName\": \"e-motion\"\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:40:08.966Z",
+    "level": "INFO",
+    "message": "Teste Environment-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:40:09.212Z",
+    "level": "INFO",
+    "message": "Environment erfolgreich gefunden: production",
+    "data": "{\n  \"environmentId\": \"master\",\n  \"environmentName\": \"production\"\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:40:09.216Z",
+    "level": "INFO",
+    "message": "Teste Content-Type-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:40:09.530Z",
+    "level": "INFO",
+    "message": "Content-Types erfolgreich abgerufen: 30",
+    "data": "{\n  \"contentTypeCount\": 30,\n  \"contentTypes\": [\n    {\n      \"id\": \"image\",\n      \"name\": \"🖼️Content: Bild\"\n    },\n    {\n      \"id\": \"pageStandard\",\n      \"name\": \"📑Page: Standard (PS)\"\n    },\n    {\n      \"id\": \"textButtonLink\",\n      \"name\": \"🖼️Content: Text Button Link (TBL)\"\n    },\n    {\n      \"id\": \"stepComponent\",\n      \"name\": \"🖼️Content: Step Komponente (SK)\"\n    },\n    {\n      \"id\": \"pageStore\",\n      \"name\": \"🏠Page: Händler (HS)\"\n    },\n    {\n      \"id\": \"pageStoreSubPage\",\n      \"name\": \"🏠Page: Händlerunterseite (HUS)\"\n    },\n    {\n      \"id\": \"imageGallery\",\n      \"name\": \"⚙️Component: Bildergallerie (BG)\"\n    },\n    {\n      \"id\": \"booking\",\n      \"name\": \"🔧Technical: Buchungsformular (BF) \"\n    },\n    {\n      \"id\": \"systemSettings\",\n      \"name\": \"🚧System: Settings \"\n    },\n    {\n      \"id\": \"contentOfferedService\",\n      \"name\": \"🖼️Content: Angebotene Leistung (ALE)\"\n    },\n    {\n      \"id\": \"componentOfferedServices\",\n      \"name\": \"⚙️Component: Angebotene Leistungen (ALC)\"\n    },\n    {\n      \"id\": \"blogOverview\",\n      \"name\": \"📑Page: Blog Übersichtsseite (BÜ)\"\n    },\n    {\n      \"id\": \"blogArticel\",\n      \"name\": \"📑Page: Blog Beitrag (BB)\"\n    },\n    {\n      \"id\": \"slider\",\n      \"name\": \"⚙️Component: Slider (SLI)\"\n    },\n    {\n      \"id\": \"youtube\",\n      \"name\": \"🖼️Content: Youtube Video (YT)\"\n    },\n    {\n      \"id\": \"brand\",\n      \"name\": \"🖼️Content: Marke\"\n    },\n    {\n      \"id\": \"styledListelement\",\n      \"name\": \"🖼️Content: Gestyltes Listenelement (GLE)\"\n    },\n    {\n      \"id\": \"autor\",\n      \"name\": \"🖼️Content: Autor\"\n    },\n    {\n      \"id\": \"styledList\",\n      \"name\": \"⚙️Component: Gestylte Liste (GLC)\"\n    },\n    {\n      \"id\": \"highlightedImageText\",\n      \"name\": \"🖼️Content: Bild-Text Kombi Hervorgehoben (BTH)\"\n    },\n    {\n      \"id\": \"heroElement\",\n      \"name\": \"🖼️Content: Hero Element (HE)\"\n    },\n    {\n      \"id\": \"teaserElement\",\n      \"name\": \"🖼️Content: Teaser Element (TE)\"\n    },\n    {\n      \"id\": \"accordion\",\n      \"name\": \"⚙️Component: Accordion (ACC)\"\n    },\n    {\n      \"id\": \"logowall\",\n      \"name\": \"⚙️Component: Logowall (LW)\"\n    },\n    {\n      \"id\": \"teaserGroup\",\n      \"name\": \"⚙️Component: Teaser Gruppe (TG)\"\n    },\n    {\n      \"id\": \"accordionElement\",\n      \"name\": \"🖼️Content: Accordion Element (TE)\"\n    },\n    {\n      \"id\": \"simpleImageText\",\n      \"name\": \"🖼️Content: Bild-Text Kombi Simpel (BTS)\"\n    },\n    {\n      \"id\": \"callToAction\",\n      \"name\": \"🖼️Content: Call to Action (CTA)\"\n    },\n    {\n      \"id\": \"logo\",\n      \"name\": \"🖼️Content: Logo\"\n    },\n    {\n      \"id\": \"richText\",\n      \"name\": \"🖼️Content: Rich-Text (RT)\"\n    }\n  ]\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:40:09.532Z",
+    "level": "INFO",
+    "message": "Teste Asset-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:40:09.895Z",
+    "level": "INFO",
+    "message": "Assets erfolgreich abgerufen: 100",
+    "data": "{\n  \"assetCount\": 100\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:40:09.902Z",
+    "level": "INFO",
+    "message": "Teste Entry-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:40:10.416Z",
+    "level": "INFO",
+    "message": "Entries erfolgreich abgerufen: 100",
+    "data": "{\n  \"entryCount\": 100\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:40:10.427Z",
+    "level": "INFO",
+    "message": "Contentful-Verbindungstest erfolgreich abgeschlossen",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:43:47.536Z",
+    "level": "INFO",
+    "message": "Starte detaillierten Contentful-Verbindungstest...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:43:47.537Z",
+    "level": "INFO",
+    "message": "Initialisiere Contentful Client...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:43:47.539Z",
+    "level": "INFO",
+    "message": "Teste Space-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:43:47.792Z",
+    "level": "INFO",
+    "message": "Space erfolgreich gefunden: e-motion",
+    "data": "{\n  \"spaceId\": \"is4lb5trkwgp\",\n  \"spaceName\": \"e-motion\"\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:43:47.799Z",
+    "level": "INFO",
+    "message": "Teste Environment-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:43:48.042Z",
+    "level": "INFO",
+    "message": "Environment erfolgreich gefunden: production",
+    "data": "{\n  \"environmentId\": \"master\",\n  \"environmentName\": \"production\"\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:43:48.046Z",
+    "level": "INFO",
+    "message": "Teste Content-Type-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:43:48.303Z",
+    "level": "INFO",
+    "message": "Content-Types erfolgreich abgerufen: 30",
+    "data": "{\n  \"contentTypeCount\": 30,\n  \"contentTypes\": [\n    {\n      \"id\": \"image\",\n      \"name\": \"🖼️Content: Bild\"\n    },\n    {\n      \"id\": \"pageStandard\",\n      \"name\": \"📑Page: Standard (PS)\"\n    },\n    {\n      \"id\": \"textButtonLink\",\n      \"name\": \"🖼️Content: Text Button Link (TBL)\"\n    },\n    {\n      \"id\": \"stepComponent\",\n      \"name\": \"🖼️Content: Step Komponente (SK)\"\n    },\n    {\n      \"id\": \"pageStore\",\n      \"name\": \"🏠Page: Händler (HS)\"\n    },\n    {\n      \"id\": \"pageStoreSubPage\",\n      \"name\": \"🏠Page: Händlerunterseite (HUS)\"\n    },\n    {\n      \"id\": \"imageGallery\",\n      \"name\": \"⚙️Component: Bildergallerie (BG)\"\n    },\n    {\n      \"id\": \"booking\",\n      \"name\": \"🔧Technical: Buchungsformular (BF) \"\n    },\n    {\n      \"id\": \"systemSettings\",\n      \"name\": \"🚧System: Settings \"\n    },\n    {\n      \"id\": \"contentOfferedService\",\n      \"name\": \"🖼️Content: Angebotene Leistung (ALE)\"\n    },\n    {\n      \"id\": \"componentOfferedServices\",\n      \"name\": \"⚙️Component: Angebotene Leistungen (ALC)\"\n    },\n    {\n      \"id\": \"blogOverview\",\n      \"name\": \"📑Page: Blog Übersichtsseite (BÜ)\"\n    },\n    {\n      \"id\": \"blogArticel\",\n      \"name\": \"📑Page: Blog Beitrag (BB)\"\n    },\n    {\n      \"id\": \"slider\",\n      \"name\": \"⚙️Component: Slider (SLI)\"\n    },\n    {\n      \"id\": \"youtube\",\n      \"name\": \"🖼️Content: Youtube Video (YT)\"\n    },\n    {\n      \"id\": \"brand\",\n      \"name\": \"🖼️Content: Marke\"\n    },\n    {\n      \"id\": \"styledListelement\",\n      \"name\": \"🖼️Content: Gestyltes Listenelement (GLE)\"\n    },\n    {\n      \"id\": \"autor\",\n      \"name\": \"🖼️Content: Autor\"\n    },\n    {\n      \"id\": \"styledList\",\n      \"name\": \"⚙️Component: Gestylte Liste (GLC)\"\n    },\n    {\n      \"id\": \"highlightedImageText\",\n      \"name\": \"🖼️Content: Bild-Text Kombi Hervorgehoben (BTH)\"\n    },\n    {\n      \"id\": \"heroElement\",\n      \"name\": \"🖼️Content: Hero Element (HE)\"\n    },\n    {\n      \"id\": \"teaserElement\",\n      \"name\": \"🖼️Content: Teaser Element (TE)\"\n    },\n    {\n      \"id\": \"accordion\",\n      \"name\": \"⚙️Component: Accordion (ACC)\"\n    },\n    {\n      \"id\": \"logowall\",\n      \"name\": \"⚙️Component: Logowall (LW)\"\n    },\n    {\n      \"id\": \"teaserGroup\",\n      \"name\": \"⚙️Component: Teaser Gruppe (TG)\"\n    },\n    {\n      \"id\": \"accordionElement\",\n      \"name\": \"🖼️Content: Accordion Element (TE)\"\n    },\n    {\n      \"id\": \"simpleImageText\",\n      \"name\": \"🖼️Content: Bild-Text Kombi Simpel (BTS)\"\n    },\n    {\n      \"id\": \"callToAction\",\n      \"name\": \"🖼️Content: Call to Action (CTA)\"\n    },\n    {\n      \"id\": \"logo\",\n      \"name\": \"🖼️Content: Logo\"\n    },\n    {\n      \"id\": \"richText\",\n      \"name\": \"🖼️Content: Rich-Text (RT)\"\n    }\n  ]\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:43:48.308Z",
+    "level": "INFO",
+    "message": "Teste Asset-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:43:48.599Z",
+    "level": "INFO",
+    "message": "Assets erfolgreich abgerufen: 100",
+    "data": "{\n  \"assetCount\": 100\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:43:48.600Z",
+    "level": "INFO",
+    "message": "Teste Entry-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:43:48.962Z",
+    "level": "INFO",
+    "message": "Entries erfolgreich abgerufen: 100",
+    "data": "{\n  \"entryCount\": 100\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:43:48.968Z",
+    "level": "INFO",
+    "message": "Contentful-Verbindungstest erfolgreich abgeschlossen",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:46:22.171Z",
+    "level": "INFO",
+    "message": "Contentful Upload gestartet...",
+    "data": "{\n  \"hasImages\": true,\n  \"imagesCount\": 1,\n  \"requestBody\": [\n    \"images\"\n  ]\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:46:22.173Z",
+    "level": "INFO",
+    "message": "Starte Upload von 1 Bildern zu Contentful...",
+    "data": "{\n  \"imageFilenames\": [\n    \"ebike-im-schnee.jpg\"\n  ]\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:47:31.222Z",
+    "level": "INFO",
+    "message": "Bildverarbeitung gestartet...",
+    "data": "{\n  \"hasFile\": true,\n  \"fileSize\": 11822,\n  \"contentType\": \"text/plain\"\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:47:31.224Z",
+    "level": "INFO",
+    "message": "Lade Briefing-Text...",
+    "data": "{\n  \"filePath\": \"C:\\\\Users\\\\a.rotte_emotion-ebik\\\\Documents\\\\Cursor Projekte\\\\Briefing Upload\\\\uploads\\\\briefing-1754052451221-199430054.txt\",\n  \"hasBuffer\": false,\n  \"bufferSize\": 0\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:47:31.230Z",
+    "level": "INFO",
+    "message": "Briefing-Text geladen",
+    "data": "{\n  \"textLength\": 11661,\n  \"firstLines\": [\n    \"﻿Slug: /e-bike-infos/kaufberatung/e-bike-gangschaltungen/\\r\",\n    \"\\r\",\n    \"local: de,at,ch\\r\",\n    \"MT: Elektro Fahrrad mit Gangschaltung - einfach erklärt! Jetzt richtig schalten\\r\",\n    \"MD: Kettenschaltung, Automatikschaltung oder Nabenschaltung? Unsere Expert:innen finden die richtige Schaltung für dich!\\r\"\n  ]\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:47:31.234Z",
+    "level": "INFO",
+    "message": "Validiere Briefing-Format...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:47:31.238Z",
+    "level": "INFO",
+    "message": "Briefing-Validierung abgeschlossen",
+    "data": "{\n  \"isValid\": true,\n  \"errors\": [\n    \"[Produkt] oder [Produkte] Marker fehlt (optional)\"\n  ],\n  \"missingFields\": []\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:47:31.241Z",
+    "level": "INFO",
+    "message": "Extrahiere Bildlinks...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:47:31.251Z",
+    "level": "INFO",
+    "message": "Bildlink-Extraktion abgeschlossen",
+    "data": "{\n  \"totalLinks\": 5,\n  \"links\": [\n    {\n      \"url\": \"https://drive.google.com/file/d/1qf6QXc8tMGkc9byVU3SwMqNmCTL4L2GY/view\",\n      \"lineNumber\": 8,\n      \"isConverted\": false\n    },\n    {\n      \"url\": \"https://drive.google.com/file/d/1wVbfn8XFJa1pqORgqOlK8OP-1pziqp0X/view\",\n      \"lineNumber\": 29,\n      \"isConverted\": false\n    },\n    {\n      \"url\": \"https://drive.google.com/file/d/1RXKN7LjKMBv-JleoFcCgp2YyTecTx3BO/view\",\n      \"lineNumber\": 45,\n      \"isConverted\": false\n    },\n    {\n      \"url\": \"https://drive.google.com/file/d/1Ib8FB-3TakDMRvvuO4XruMRVJW7-lTcg/view\",\n      \"lineNumber\": 61,\n      \"isConverted\": false\n    },\n    {\n      \"url\": \"https://drive.google.com/file/d/1GUwcVnOfkQWrV8e-nIiBYdzrweTmqn9b/view\",\n      \"lineNumber\": 77,\n      \"isConverted\": false\n    }\n  ]\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:48:39.931Z",
+    "level": "INFO",
+    "message": "Contentful Upload gestartet...",
+    "data": "{\n  \"hasImages\": true,\n  \"imagesCount\": 5,\n  \"requestBody\": [\n    \"images\"\n  ]\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:48:39.951Z",
+    "level": "INFO",
+    "message": "Starte Upload von 5 Bildern zu Contentful...",
+    "data": "{\n  \"imageFilenames\": [\n    \"enviolo Nabenschaltung .png\",\n    \"Nabenschaltung.png\",\n    \"Kettenschaltung.png\",\n    \"Automatikschaltung.png\",\n    \"e-Bike Beratung von Oli.P.png\"\n  ]\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:50:06.117Z",
+    "level": "INFO",
+    "message": "Starte detaillierten Contentful-Verbindungstest...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:50:06.119Z",
+    "level": "INFO",
+    "message": "Initialisiere Contentful Client...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:50:06.121Z",
+    "level": "INFO",
+    "message": "Teste Space-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:50:06.357Z",
+    "level": "INFO",
+    "message": "Space erfolgreich gefunden: e-motion",
+    "data": "{\n  \"spaceId\": \"is4lb5trkwgp\",\n  \"spaceName\": \"e-motion\"\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:50:06.360Z",
+    "level": "INFO",
+    "message": "Teste Environment-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:50:06.555Z",
+    "level": "INFO",
+    "message": "Environment erfolgreich gefunden: production",
+    "data": "{\n  \"environmentId\": \"master\",\n  \"environmentName\": \"production\"\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:50:06.559Z",
+    "level": "INFO",
+    "message": "Teste Content-Type-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:50:06.855Z",
+    "level": "INFO",
+    "message": "Content-Types erfolgreich abgerufen: 30",
+    "data": "{\n  \"contentTypeCount\": 30,\n  \"contentTypes\": [\n    {\n      \"id\": \"image\",\n      \"name\": \"🖼️Content: Bild\"\n    },\n    {\n      \"id\": \"pageStandard\",\n      \"name\": \"📑Page: Standard (PS)\"\n    },\n    {\n      \"id\": \"textButtonLink\",\n      \"name\": \"🖼️Content: Text Button Link (TBL)\"\n    },\n    {\n      \"id\": \"stepComponent\",\n      \"name\": \"🖼️Content: Step Komponente (SK)\"\n    },\n    {\n      \"id\": \"pageStore\",\n      \"name\": \"🏠Page: Händler (HS)\"\n    },\n    {\n      \"id\": \"pageStoreSubPage\",\n      \"name\": \"🏠Page: Händlerunterseite (HUS)\"\n    },\n    {\n      \"id\": \"imageGallery\",\n      \"name\": \"⚙️Component: Bildergallerie (BG)\"\n    },\n    {\n      \"id\": \"booking\",\n      \"name\": \"🔧Technical: Buchungsformular (BF) \"\n    },\n    {\n      \"id\": \"systemSettings\",\n      \"name\": \"🚧System: Settings \"\n    },\n    {\n      \"id\": \"contentOfferedService\",\n      \"name\": \"🖼️Content: Angebotene Leistung (ALE)\"\n    },\n    {\n      \"id\": \"componentOfferedServices\",\n      \"name\": \"⚙️Component: Angebotene Leistungen (ALC)\"\n    },\n    {\n      \"id\": \"blogOverview\",\n      \"name\": \"📑Page: Blog Übersichtsseite (BÜ)\"\n    },\n    {\n      \"id\": \"blogArticel\",\n      \"name\": \"📑Page: Blog Beitrag (BB)\"\n    },\n    {\n      \"id\": \"slider\",\n      \"name\": \"⚙️Component: Slider (SLI)\"\n    },\n    {\n      \"id\": \"youtube\",\n      \"name\": \"🖼️Content: Youtube Video (YT)\"\n    },\n    {\n      \"id\": \"brand\",\n      \"name\": \"🖼️Content: Marke\"\n    },\n    {\n      \"id\": \"styledListelement\",\n      \"name\": \"🖼️Content: Gestyltes Listenelement (GLE)\"\n    },\n    {\n      \"id\": \"autor\",\n      \"name\": \"🖼️Content: Autor\"\n    },\n    {\n      \"id\": \"styledList\",\n      \"name\": \"⚙️Component: Gestylte Liste (GLC)\"\n    },\n    {\n      \"id\": \"highlightedImageText\",\n      \"name\": \"🖼️Content: Bild-Text Kombi Hervorgehoben (BTH)\"\n    },\n    {\n      \"id\": \"heroElement\",\n      \"name\": \"🖼️Content: Hero Element (HE)\"\n    },\n    {\n      \"id\": \"teaserElement\",\n      \"name\": \"🖼️Content: Teaser Element (TE)\"\n    },\n    {\n      \"id\": \"accordion\",\n      \"name\": \"⚙️Component: Accordion (ACC)\"\n    },\n    {\n      \"id\": \"logowall\",\n      \"name\": \"⚙️Component: Logowall (LW)\"\n    },\n    {\n      \"id\": \"teaserGroup\",\n      \"name\": \"⚙️Component: Teaser Gruppe (TG)\"\n    },\n    {\n      \"id\": \"accordionElement\",\n      \"name\": \"🖼️Content: Accordion Element (TE)\"\n    },\n    {\n      \"id\": \"simpleImageText\",\n      \"name\": \"🖼️Content: Bild-Text Kombi Simpel (BTS)\"\n    },\n    {\n      \"id\": \"callToAction\",\n      \"name\": \"🖼️Content: Call to Action (CTA)\"\n    },\n    {\n      \"id\": \"logo\",\n      \"name\": \"🖼️Content: Logo\"\n    },\n    {\n      \"id\": \"richText\",\n      \"name\": \"🖼️Content: Rich-Text (RT)\"\n    }\n  ]\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:50:06.860Z",
+    "level": "INFO",
+    "message": "Teste Asset-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:50:07.152Z",
+    "level": "INFO",
+    "message": "Assets erfolgreich abgerufen: 100",
+    "data": "{\n  \"assetCount\": 100\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:50:07.155Z",
+    "level": "INFO",
+    "message": "Teste Entry-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:50:07.554Z",
+    "level": "INFO",
+    "message": "Entries erfolgreich abgerufen: 100",
+    "data": "{\n  \"entryCount\": 100\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:50:07.555Z",
+    "level": "INFO",
+    "message": "Contentful-Verbindungstest erfolgreich abgeschlossen",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:50:59.707Z",
+    "level": "INFO",
+    "message": "Starte detaillierten Contentful-Verbindungstest...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:50:59.710Z",
+    "level": "INFO",
+    "message": "Initialisiere Contentful Client...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:50:59.714Z",
+    "level": "INFO",
+    "message": "Teste Space-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:50:59.937Z",
+    "level": "INFO",
+    "message": "Space erfolgreich gefunden: e-motion",
+    "data": "{\n  \"spaceId\": \"is4lb5trkwgp\",\n  \"spaceName\": \"e-motion\"\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:50:59.939Z",
+    "level": "INFO",
+    "message": "Teste Environment-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:51:00.141Z",
+    "level": "INFO",
+    "message": "Environment erfolgreich gefunden: production",
+    "data": "{\n  \"environmentId\": \"master\",\n  \"environmentName\": \"production\"\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:51:00.145Z",
+    "level": "INFO",
+    "message": "Teste Content-Type-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:51:00.394Z",
+    "level": "INFO",
+    "message": "Content-Types erfolgreich abgerufen: 30",
+    "data": "{\n  \"contentTypeCount\": 30,\n  \"contentTypes\": [\n    {\n      \"id\": \"image\",\n      \"name\": \"🖼️Content: Bild\"\n    },\n    {\n      \"id\": \"pageStandard\",\n      \"name\": \"📑Page: Standard (PS)\"\n    },\n    {\n      \"id\": \"textButtonLink\",\n      \"name\": \"🖼️Content: Text Button Link (TBL)\"\n    },\n    {\n      \"id\": \"stepComponent\",\n      \"name\": \"🖼️Content: Step Komponente (SK)\"\n    },\n    {\n      \"id\": \"pageStore\",\n      \"name\": \"🏠Page: Händler (HS)\"\n    },\n    {\n      \"id\": \"pageStoreSubPage\",\n      \"name\": \"🏠Page: Händlerunterseite (HUS)\"\n    },\n    {\n      \"id\": \"imageGallery\",\n      \"name\": \"⚙️Component: Bildergallerie (BG)\"\n    },\n    {\n      \"id\": \"booking\",\n      \"name\": \"🔧Technical: Buchungsformular (BF) \"\n    },\n    {\n      \"id\": \"systemSettings\",\n      \"name\": \"🚧System: Settings \"\n    },\n    {\n      \"id\": \"contentOfferedService\",\n      \"name\": \"🖼️Content: Angebotene Leistung (ALE)\"\n    },\n    {\n      \"id\": \"componentOfferedServices\",\n      \"name\": \"⚙️Component: Angebotene Leistungen (ALC)\"\n    },\n    {\n      \"id\": \"blogOverview\",\n      \"name\": \"📑Page: Blog Übersichtsseite (BÜ)\"\n    },\n    {\n      \"id\": \"blogArticel\",\n      \"name\": \"📑Page: Blog Beitrag (BB)\"\n    },\n    {\n      \"id\": \"slider\",\n      \"name\": \"⚙️Component: Slider (SLI)\"\n    },\n    {\n      \"id\": \"youtube\",\n      \"name\": \"🖼️Content: Youtube Video (YT)\"\n    },\n    {\n      \"id\": \"brand\",\n      \"name\": \"🖼️Content: Marke\"\n    },\n    {\n      \"id\": \"styledListelement\",\n      \"name\": \"🖼️Content: Gestyltes Listenelement (GLE)\"\n    },\n    {\n      \"id\": \"autor\",\n      \"name\": \"🖼️Content: Autor\"\n    },\n    {\n      \"id\": \"styledList\",\n      \"name\": \"⚙️Component: Gestylte Liste (GLC)\"\n    },\n    {\n      \"id\": \"highlightedImageText\",\n      \"name\": \"🖼️Content: Bild-Text Kombi Hervorgehoben (BTH)\"\n    },\n    {\n      \"id\": \"heroElement\",\n      \"name\": \"🖼️Content: Hero Element (HE)\"\n    },\n    {\n      \"id\": \"teaserElement\",\n      \"name\": \"🖼️Content: Teaser Element (TE)\"\n    },\n    {\n      \"id\": \"accordion\",\n      \"name\": \"⚙️Component: Accordion (ACC)\"\n    },\n    {\n      \"id\": \"logowall\",\n      \"name\": \"⚙️Component: Logowall (LW)\"\n    },\n    {\n      \"id\": \"teaserGroup\",\n      \"name\": \"⚙️Component: Teaser Gruppe (TG)\"\n    },\n    {\n      \"id\": \"accordionElement\",\n      \"name\": \"🖼️Content: Accordion Element (TE)\"\n    },\n    {\n      \"id\": \"simpleImageText\",\n      \"name\": \"🖼️Content: Bild-Text Kombi Simpel (BTS)\"\n    },\n    {\n      \"id\": \"callToAction\",\n      \"name\": \"🖼️Content: Call to Action (CTA)\"\n    },\n    {\n      \"id\": \"logo\",\n      \"name\": \"🖼️Content: Logo\"\n    },\n    {\n      \"id\": \"richText\",\n      \"name\": \"🖼️Content: Rich-Text (RT)\"\n    }\n  ]\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:51:00.398Z",
+    "level": "INFO",
+    "message": "Teste Asset-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:51:00.715Z",
+    "level": "INFO",
+    "message": "Assets erfolgreich abgerufen: 100",
+    "data": "{\n  \"assetCount\": 100\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:51:00.717Z",
+    "level": "INFO",
+    "message": "Teste Entry-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:51:01.116Z",
+    "level": "INFO",
+    "message": "Entries erfolgreich abgerufen: 100",
+    "data": "{\n  \"entryCount\": 100\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:51:01.118Z",
+    "level": "INFO",
+    "message": "Contentful-Verbindungstest erfolgreich abgeschlossen",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:52:45.738Z",
+    "level": "INFO",
+    "message": "Starte detaillierten Contentful-Verbindungstest...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:52:45.740Z",
+    "level": "INFO",
+    "message": "Initialisiere Contentful Client...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:52:45.744Z",
+    "level": "INFO",
+    "message": "Teste Space-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:52:46.034Z",
+    "level": "INFO",
+    "message": "Space erfolgreich gefunden: e-motion",
+    "data": "{\n  \"spaceId\": \"is4lb5trkwgp\",\n  \"spaceName\": \"e-motion\"\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:52:46.052Z",
+    "level": "INFO",
+    "message": "Teste Environment-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:52:46.309Z",
+    "level": "INFO",
+    "message": "Environment erfolgreich gefunden: production",
+    "data": "{\n  \"environmentId\": \"master\",\n  \"environmentName\": \"production\"\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:52:46.313Z",
+    "level": "INFO",
+    "message": "Teste Content-Type-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:52:46.676Z",
+    "level": "INFO",
+    "message": "Content-Types erfolgreich abgerufen: 30",
+    "data": "{\n  \"contentTypeCount\": 30,\n  \"contentTypes\": [\n    {\n      \"id\": \"image\",\n      \"name\": \"🖼️Content: Bild\"\n    },\n    {\n      \"id\": \"pageStandard\",\n      \"name\": \"📑Page: Standard (PS)\"\n    },\n    {\n      \"id\": \"textButtonLink\",\n      \"name\": \"🖼️Content: Text Button Link (TBL)\"\n    },\n    {\n      \"id\": \"stepComponent\",\n      \"name\": \"🖼️Content: Step Komponente (SK)\"\n    },\n    {\n      \"id\": \"pageStore\",\n      \"name\": \"🏠Page: Händler (HS)\"\n    },\n    {\n      \"id\": \"pageStoreSubPage\",\n      \"name\": \"🏠Page: Händlerunterseite (HUS)\"\n    },\n    {\n      \"id\": \"imageGallery\",\n      \"name\": \"⚙️Component: Bildergallerie (BG)\"\n    },\n    {\n      \"id\": \"booking\",\n      \"name\": \"🔧Technical: Buchungsformular (BF) \"\n    },\n    {\n      \"id\": \"systemSettings\",\n      \"name\": \"🚧System: Settings \"\n    },\n    {\n      \"id\": \"contentOfferedService\",\n      \"name\": \"🖼️Content: Angebotene Leistung (ALE)\"\n    },\n    {\n      \"id\": \"componentOfferedServices\",\n      \"name\": \"⚙️Component: Angebotene Leistungen (ALC)\"\n    },\n    {\n      \"id\": \"blogOverview\",\n      \"name\": \"📑Page: Blog Übersichtsseite (BÜ)\"\n    },\n    {\n      \"id\": \"blogArticel\",\n      \"name\": \"📑Page: Blog Beitrag (BB)\"\n    },\n    {\n      \"id\": \"slider\",\n      \"name\": \"⚙️Component: Slider (SLI)\"\n    },\n    {\n      \"id\": \"youtube\",\n      \"name\": \"🖼️Content: Youtube Video (YT)\"\n    },\n    {\n      \"id\": \"brand\",\n      \"name\": \"🖼️Content: Marke\"\n    },\n    {\n      \"id\": \"styledListelement\",\n      \"name\": \"🖼️Content: Gestyltes Listenelement (GLE)\"\n    },\n    {\n      \"id\": \"autor\",\n      \"name\": \"🖼️Content: Autor\"\n    },\n    {\n      \"id\": \"styledList\",\n      \"name\": \"⚙️Component: Gestylte Liste (GLC)\"\n    },\n    {\n      \"id\": \"highlightedImageText\",\n      \"name\": \"🖼️Content: Bild-Text Kombi Hervorgehoben (BTH)\"\n    },\n    {\n      \"id\": \"heroElement\",\n      \"name\": \"🖼️Content: Hero Element (HE)\"\n    },\n    {\n      \"id\": \"teaserElement\",\n      \"name\": \"🖼️Content: Teaser Element (TE)\"\n    },\n    {\n      \"id\": \"accordion\",\n      \"name\": \"⚙️Component: Accordion (ACC)\"\n    },\n    {\n      \"id\": \"logowall\",\n      \"name\": \"⚙️Component: Logowall (LW)\"\n    },\n    {\n      \"id\": \"teaserGroup\",\n      \"name\": \"⚙️Component: Teaser Gruppe (TG)\"\n    },\n    {\n      \"id\": \"accordionElement\",\n      \"name\": \"🖼️Content: Accordion Element (TE)\"\n    },\n    {\n      \"id\": \"simpleImageText\",\n      \"name\": \"🖼️Content: Bild-Text Kombi Simpel (BTS)\"\n    },\n    {\n      \"id\": \"callToAction\",\n      \"name\": \"🖼️Content: Call to Action (CTA)\"\n    },\n    {\n      \"id\": \"logo\",\n      \"name\": \"🖼️Content: Logo\"\n    },\n    {\n      \"id\": \"richText\",\n      \"name\": \"🖼️Content: Rich-Text (RT)\"\n    }\n  ]\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:52:46.871Z",
+    "level": "INFO",
+    "message": "Teste Asset-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:52:47.822Z",
+    "level": "INFO",
+    "message": "Assets erfolgreich abgerufen: 100",
+    "data": "{\n  \"assetCount\": 100\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:52:47.870Z",
+    "level": "INFO",
+    "message": "Teste Entry-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:52:48.430Z",
+    "level": "INFO",
+    "message": "Entries erfolgreich abgerufen: 100",
+    "data": "{\n  \"entryCount\": 100\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:52:48.432Z",
+    "level": "INFO",
+    "message": "Contentful-Verbindungstest erfolgreich abgeschlossen",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:53:10.401Z",
+    "level": "INFO",
+    "message": "Starte detaillierten Contentful-Verbindungstest...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:53:10.402Z",
+    "level": "INFO",
+    "message": "Initialisiere Contentful Client...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:53:10.404Z",
+    "level": "INFO",
+    "message": "Teste Space-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:53:10.609Z",
+    "level": "INFO",
+    "message": "Space erfolgreich gefunden: e-motion",
+    "data": "{\n  \"spaceId\": \"is4lb5trkwgp\",\n  \"spaceName\": \"e-motion\"\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:53:10.612Z",
+    "level": "INFO",
+    "message": "Teste Environment-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:53:10.799Z",
+    "level": "INFO",
+    "message": "Environment erfolgreich gefunden: production",
+    "data": "{\n  \"environmentId\": \"master\",\n  \"environmentName\": \"production\"\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:53:10.800Z",
+    "level": "INFO",
+    "message": "Teste Content-Type-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:53:11.050Z",
+    "level": "INFO",
+    "message": "Content-Types erfolgreich abgerufen: 30",
+    "data": "{\n  \"contentTypeCount\": 30,\n  \"contentTypes\": [\n    {\n      \"id\": \"image\",\n      \"name\": \"🖼️Content: Bild\"\n    },\n    {\n      \"id\": \"pageStandard\",\n      \"name\": \"📑Page: Standard (PS)\"\n    },\n    {\n      \"id\": \"textButtonLink\",\n      \"name\": \"🖼️Content: Text Button Link (TBL)\"\n    },\n    {\n      \"id\": \"stepComponent\",\n      \"name\": \"🖼️Content: Step Komponente (SK)\"\n    },\n    {\n      \"id\": \"pageStore\",\n      \"name\": \"🏠Page: Händler (HS)\"\n    },\n    {\n      \"id\": \"pageStoreSubPage\",\n      \"name\": \"🏠Page: Händlerunterseite (HUS)\"\n    },\n    {\n      \"id\": \"imageGallery\",\n      \"name\": \"⚙️Component: Bildergallerie (BG)\"\n    },\n    {\n      \"id\": \"booking\",\n      \"name\": \"🔧Technical: Buchungsformular (BF) \"\n    },\n    {\n      \"id\": \"systemSettings\",\n      \"name\": \"🚧System: Settings \"\n    },\n    {\n      \"id\": \"contentOfferedService\",\n      \"name\": \"🖼️Content: Angebotene Leistung (ALE)\"\n    },\n    {\n      \"id\": \"componentOfferedServices\",\n      \"name\": \"⚙️Component: Angebotene Leistungen (ALC)\"\n    },\n    {\n      \"id\": \"blogOverview\",\n      \"name\": \"📑Page: Blog Übersichtsseite (BÜ)\"\n    },\n    {\n      \"id\": \"blogArticel\",\n      \"name\": \"📑Page: Blog Beitrag (BB)\"\n    },\n    {\n      \"id\": \"slider\",\n      \"name\": \"⚙️Component: Slider (SLI)\"\n    },\n    {\n      \"id\": \"youtube\",\n      \"name\": \"🖼️Content: Youtube Video (YT)\"\n    },\n    {\n      \"id\": \"brand\",\n      \"name\": \"🖼️Content: Marke\"\n    },\n    {\n      \"id\": \"styledListelement\",\n      \"name\": \"🖼️Content: Gestyltes Listenelement (GLE)\"\n    },\n    {\n      \"id\": \"autor\",\n      \"name\": \"🖼️Content: Autor\"\n    },\n    {\n      \"id\": \"styledList\",\n      \"name\": \"⚙️Component: Gestylte Liste (GLC)\"\n    },\n    {\n      \"id\": \"highlightedImageText\",\n      \"name\": \"🖼️Content: Bild-Text Kombi Hervorgehoben (BTH)\"\n    },\n    {\n      \"id\": \"heroElement\",\n      \"name\": \"🖼️Content: Hero Element (HE)\"\n    },\n    {\n      \"id\": \"teaserElement\",\n      \"name\": \"🖼️Content: Teaser Element (TE)\"\n    },\n    {\n      \"id\": \"accordion\",\n      \"name\": \"⚙️Component: Accordion (ACC)\"\n    },\n    {\n      \"id\": \"logowall\",\n      \"name\": \"⚙️Component: Logowall (LW)\"\n    },\n    {\n      \"id\": \"teaserGroup\",\n      \"name\": \"⚙️Component: Teaser Gruppe (TG)\"\n    },\n    {\n      \"id\": \"accordionElement\",\n      \"name\": \"🖼️Content: Accordion Element (TE)\"\n    },\n    {\n      \"id\": \"simpleImageText\",\n      \"name\": \"🖼️Content: Bild-Text Kombi Simpel (BTS)\"\n    },\n    {\n      \"id\": \"callToAction\",\n      \"name\": \"🖼️Content: Call to Action (CTA)\"\n    },\n    {\n      \"id\": \"logo\",\n      \"name\": \"🖼️Content: Logo\"\n    },\n    {\n      \"id\": \"richText\",\n      \"name\": \"🖼️Content: Rich-Text (RT)\"\n    }\n  ]\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:53:11.054Z",
+    "level": "INFO",
+    "message": "Teste Asset-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:53:11.463Z",
+    "level": "INFO",
+    "message": "Assets erfolgreich abgerufen: 100",
+    "data": "{\n  \"assetCount\": 100\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:53:11.466Z",
+    "level": "INFO",
+    "message": "Teste Entry-Zugriff...",
+    "data": null
+  },
+  {
+    "timestamp": "2025-08-01T12:53:11.825Z",
+    "level": "INFO",
+    "message": "Entries erfolgreich abgerufen: 100",
+    "data": "{\n  \"entryCount\": 100\n}"
+  },
+  {
+    "timestamp": "2025-08-01T12:53:11.827Z",
+    "level": "INFO",
+    "message": "Contentful-Verbindungstest erfolgreich abgeschlossen",
+    "data": null
+  }
+]

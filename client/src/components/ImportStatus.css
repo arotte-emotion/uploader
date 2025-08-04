@@ -1,0 +1,265 @@
+.import-status {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  animation: fadeIn 0.5s ease-out;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.status-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #ecf0f1;
+}
+
+.status-header h2 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.status-badge {
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.status-badge.success {
+  background: rgba(39, 174, 96, 0.1);
+  color: #27ae60;
+  border: 2px solid #27ae60;
+}
+
+.status-badge.error {
+  background: rgba(231, 76, 60, 0.1);
+  color: #e74c3c;
+  border: 2px solid #e74c3c;
+}
+
+.status-message {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  border: 1px solid #ecf0f1;
+}
+
+.status-message h3 {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.timestamp {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.import-summary {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border: 1px solid #ecf0f1;
+}
+
+.import-summary h3 {
+  color: #2c3e50;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.import-summary h3::before {
+  content: "📊";
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  background: rgba(102, 126, 234, 0.05);
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.summary-label {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.summary-value {
+  color: #7f8c8d;
+  font-weight: 500;
+}
+
+.success-details {
+  background: rgba(39, 174, 96, 0.1);
+  border: 2px solid #27ae60;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.success-details h3 {
+  color: #27ae60;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.success-details h3::before {
+  content: "✅";
+}
+
+.success-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.success-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background: rgba(39, 174, 96, 0.1);
+  border-radius: 8px;
+  color: #27ae60;
+  font-weight: 500;
+}
+
+.success-icon {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.next-steps {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border: 1px solid #ecf0f1;
+}
+
+.next-steps h3 {
+  color: #2c3e50;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.next-steps h3::before {
+  content: "📋";
+}
+
+.steps-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.step-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: rgba(102, 126, 234, 0.05);
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+.step-number {
+  background: #667eea;
+  color: white;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .status-header {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  .status-header h2 {
+    font-size: 1.5rem;
+  }
+  
+  .summary-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .summary-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .step-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+  
+  .step-number {
+    align-self: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .import-status {
+    padding: 1.5rem;
+  }
+  
+  .status-message,
+  .import-summary,
+  .success-details,
+  .next-steps {
+    padding: 1rem;
+  }
+  
+  .status-badge {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+} 

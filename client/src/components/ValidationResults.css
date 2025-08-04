@@ -1,0 +1,240 @@
+.validation-results {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  border: 1px solid #e0e0e0;
+  animation: fadeIn 0.5s ease-out;
+  text-align: center;
+}
+
+.validation-header {
+  margin-bottom: 2rem;
+}
+
+.validation-header h2 {
+  color: #1a4d2e;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.validation-status {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.validation-status.valid {
+  background: #f0f8f0;
+  color: #32cd32;
+  border: 1px solid #32cd32;
+}
+
+.validation-status.invalid {
+  background: #fff5f5;
+  color: #e53e3e;
+  border: 1px solid #e53e3e;
+}
+
+.file-info-card,
+.meta-info-card {
+  background: linear-gradient(135deg, #f0f8f0 0%, #e8f5e8 100%);
+  border: 1px solid #32cd32;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 16px rgba(50, 205, 50, 0.1);
+  text-align: left;
+}
+
+.file-info-card h3,
+.meta-info-card h3 {
+  color: #1a4d2e;
+  margin: 0 0 1rem 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.info-grid,
+.meta-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.info-item,
+.meta-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  border: 1px solid rgba(50, 205, 50, 0.2);
+}
+
+.info-item label,
+.meta-item label {
+  font-weight: 600;
+  color: #1a4d2e;
+  font-size: 0.9rem;
+}
+
+.info-item span,
+.meta-item span {
+  color: #2c3e50;
+  font-weight: 500;
+  text-align: right;
+  word-break: break-word;
+  max-width: 60%;
+}
+
+.validation-errors {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.validation-errors h3 {
+  color: #1a4d2e;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.validation-errors ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.error-item {
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  border-radius: 8px;
+  border-left: 4px solid #e53e3e;
+  background: #fff5f5;
+  color: #e53e3e;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(229, 62, 62, 0.1);
+  transition: all 0.3s ease;
+}
+
+.error-item:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 12px rgba(229, 62, 62, 0.15);
+}
+
+.validation-success {
+  text-align: center;
+  padding: 2rem;
+  color: #32cd32;
+  font-weight: 600;
+  background: linear-gradient(135deg, #f0f8f0 0%, #e8f5e8 100%);
+  border-radius: 12px;
+  border: 1px solid #32cd32;
+  box-shadow: 0 4px 16px rgba(50, 205, 50, 0.1);
+  animation: fadeIn 0.5s ease-out;
+  margin-top: 2rem;
+}
+
+.validation-success h3 {
+  color: #1a4d2e;
+  margin-bottom: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.validation-success p {
+  color: #2c3e50;
+  margin: 0;
+  font-weight: 500;
+}
+
+.missing-fields {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.missing-fields h3 {
+  color: #1a4d2e;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.missing-fields ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.missing-item {
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  border-radius: 8px;
+  border-left: 4px solid #f59e0b;
+  background: #fffbeb;
+  color: #d97706;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.1);
+  transition: all 0.3s ease;
+}
+
+.missing-item:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.15);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .validation-results {
+    padding: 1.5rem;
+  }
+  
+  .info-item,
+  .meta-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .info-item span,
+  .meta-item span {
+    text-align: left;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .validation-results {
+    padding: 1rem;
+  }
+  
+  .file-info-card,
+  .meta-info-card {
+    padding: 1rem;
+  }
+  
+  .error-item,
+  .missing-item {
+    padding: 0.75rem;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} 

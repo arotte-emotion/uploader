@@ -1,0 +1,9 @@
+AuthType Basic
+AuthName "Geschützter Bereich"
+AuthUserFile ".htpasswd"
+Require valid-user
+
+<FilesMatch "^\.ht">
+    Order allow,deny
+    Deny from all
+</FilesMatch>

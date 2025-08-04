@@ -1,0 +1,126 @@
+.local-info-display {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+  margin-top: 2rem;
+}
+
+.local-info-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #1a4d2e;
+}
+
+.local-info-header h3 {
+  color: #1a4d2e;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.local-info-header p {
+  color: #7f8c8d;
+  font-size: 1rem;
+}
+
+.local-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.local-info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+.local-info-item:hover {
+  border-color: #32cd32;
+  box-shadow: 0 4px 12px rgba(50, 205, 50, 0.15);
+}
+
+.local-info-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+}
+
+.line-number {
+  color: #32cd32;
+  font-weight: 600;
+  font-size: 0.9rem;
+  min-width: 80px;
+}
+
+.local-content {
+  color: #2c3e50;
+  font-size: 0.9rem;
+  word-break: break-word;
+}
+
+.local-info-badge {
+  margin-left: 1rem;
+}
+
+.badge {
+  background: #ffd700;
+  color: #1a4d2e;
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.local-info-help {
+  background: #f0f8f0;
+  border-radius: 8px;
+  padding: 1rem;
+  border-left: 4px solid #32cd32;
+}
+
+.local-info-help h4 {
+  color: #1a4d2e;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.local-info-help p {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .local-info-display {
+    padding: 1rem;
+  }
+  
+  .local-info-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .local-info-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .local-info-badge {
+    margin-left: 0;
+    align-self: flex-start;
+  }
+} 

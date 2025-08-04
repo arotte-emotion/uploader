@@ -1,0 +1,54 @@
+﻿Slug: /magazin/komponenten/tq-antriebe/
+
+
+local: de, at, ch
+
+
+MT: Alle Infos zum TQ Systems e-Bike Antrieb - e-motion e-Bike Experten
+
+
+MD: Der neuste TQ e-Bike Mittelmotor bietet Ihnen absolute Höchstleistung. Alle Infos zum TQ HPR 120S findet Ihr hier im Info Bereich.
+
+
+H1: TQ e-Bike Antrieb
+Der TQ e-Bike Antrieb ist das neue Sternchen am e-Bike Himmel, denn mit einem maximalen Drehmoment von sagenhaften 120 Nm ist er der derzeit stärkste Pedelec-Motor am Markt. Trotz seiner Stärke überrascht der TQ HPR 120S durch seine kompakte Größe und das geringe Gewicht und ist somit der ideale Motor für all diejenigen, die extreme Strecken bewältigen möchten und viel Motorkraft benötigen oder bevorzugen.
+Das Unternehmen TQ-Systems aus Seefeld bei München entwickelt und fertigt hochqualitative elektronische und mechatronische Systeme für die Energie- und Medizintechnik, für Luft- und Raumfahrt, Schifffahrt, Bahn- und Automobiltechnik und nicht zuletzt für e-Bikes! Der neuste Antrieb, der TQ HPR 120S wurde speziell für den Einsatz in e-Bikes entwickelt und ist ein echter Hochleistungsmotor. Der TQ Mittelmotor orientiert sich an der Technik für Stellmotoren, wie sie in der Raumfahrt zur Steuerung modernster Satelliten eingesetzt werden. Das Ergebnis kann sich nicht nur sehen sondern auch spüren lassen, denn dank der engen Wicklungen sind die Verluste dieses Motors geringer als bei vergleichbaren Systemen.
+H2: Die technischen Eigenschaften des TQ e-Bike Antriebs
+Technisch durchdacht, kraftvoll und mit den höchsten qualitativen Ansprüchen – den kraftvollen Antrieb aus der TQ Drives Serie gibt es in zwei unterschiedlichen Varianten: Einer normalen Pedelec-Variante bis zu einer Unterstützung bis zu 25 km/h und einer Speed-Pedelec Variante, die dich bis zu einer Geschwindigkeit von 45 km/h unterstützt. Auch eine Race-Variante (75 km/h) ist für spezielle Race-Pedelecs verfügbar, diese ist allerdings nicht im Straßenverkehr zugelassen.
+Der TQ HPR 120S kombiniert modernes Design mit Leistungsfähigkeit und wurde schon mehrmals für seinen Innovationsgrad und sein Äußeres ausgezeichnet. Egal ob du mit dem e-Bike zur Arbeit fährst oder die Natur auf zwei Rädern erobern möchtest, der TQ HPR 120S ermöglicht dir maximalen Fahrspaß auf jedem Terrain mit Qualität und Design “Made in Germany”.
+H3: TQ HPR 120S - Technische Details im Überblick
+* Motorleistung: 920 Watt Peak
+* Drehmoment: 120 Nm
+* Gewicht: 3,9 kg
+* Größe: 144 mm
+* Akku: Li-Ionen Akku, 48 V, zwischen 400Wh und 800Wh Nennkapazität realisierbar
+* Sensorik: Drehmomentsensor, Speed-Sensor, Schaltunterbrechung
+* Anwendung: Pedelec, Speed-Pedelec, e-Bike
+* Kompatibel mit allen gängigen Schaltungen
+* 5 Unterstützungsstufen
+H4: Video zum HPR 120S von TQ-Drives
+https://youtu.be/3odXnbgvC_0
+H2: Funktionsweise des TQ HPR 120S e-Bike Motors
+Bei dem TQ HPR 120 handelt es sich um einen e-Antrieb mit patentiertem Pinring Getriebe. Ein elliptisches Wälzlager treibt die e-Maschine an indem die ovale Kontur 150 Pins wellenförmig zwischen dem innerem Zahnrad (148 Zähne) und einem feststehenden äußeren Zahnrad (152 Zähne) bewegt. Die Pins wirken also als Transmitter und die Übersetzung findet zwischen der Drehbewegung des Motors und dem inneren Zahnrad statt. Da sich alle Pins im gesamten Umfang im Eingriff befinden, kann eine Kraftübertragung auf kleinstem Raum erreicht werden. Dadurch ist in einem Schritt eine Untersetzung im Verhältnis von 1:37 möglich. 
+H3: Optische Integration des TQ HPR 120S e-Bike Motors
+Für alle, die ihre e-Bike-Mobilität auf ein neues Level befördern wollen und auf den TQ-Antrieb umsteigen möchten, haben wir gute Neuigkeiten! Denn dieser Antrieb ist nicht nur bärenstark, er ist auch ein optisches Highlight in jedem e-Bike! Dank der rotationssymmetrischen und kompakten Bauart fügt sich der TQ HPR 120S Motor optimal in jedes individuelle Bike-Design ein ohne das Gesamtbild zu stören. 
+ der-e-bike-antrieb-tq-hpr-120s-gibt-es-für-normale-pedelecs-und-speed pedelecs 
+
+H3: Das Fahrgefühl mit dem TQ HPR 120S e-Bike Antrieb
+Du möchtest maximale Power und Reichweite? Dann ist der TQ HPR 120S die richtige Wahl! Innovative Effizienztechnologie kombiniert mit der Pin-Getriebetechnik ermöglicht es dir, e-Bikes mit dem Mittelmotor von TQ auf jedem Terrain zu fahren. Das Kraftpaket mit 880 Wattstunden Akku-Kapazität liefert einen Drehmoment von 120 Nm über die gesamte Leistungsbandbreite und lässt dich so jede Situation souverän meistern. Die überdurchschnittliche Leistung des Mittelmotors lässt sich gut dosieren, sodass du dich auf ein feinfühliges Anfahrverhalten freuen kannst.
+Auch das Ansprechverhalten des TQ HPR 120S ist agil und reagiert intuitiv auf Kadenz und die Kraft des e-Bike Fahrers. Fahrer haben die Wahl zwischen fünf Unterstützungsmodi, die eine individuelle Fahrweise – von komfortabel bis sportlich – möglich machen. Das im Durchmesser nur 144 Millimeter große Gehäuse, in dem Motor, Getriebe und Steuerung integriert sind, wiegt nur 3,79 kg und ist durch Materialverbesserungen leiser im Vergleich zu den Vorgängermodellen geworden. Dank integriertem Freilauf lässt sich das Rad pedalieren wie ein Bike ohne Motor, denn bei ausgeschaltetem Antrieb laufen keine inneren Bauteile mit. Das Antriebssystem lässt sich mit mehreren Kettenblättern am Tretlager, beliebigen Ketten- und Nabenschaltungen kombinieren.
+Video zum TQ-Drives e-Bike Antrieb
+https://youtu.be/W11SZ3ubyBM
+Testbericht: Der TQ HPR 120S im Sterzing Hardtail von M1 Sporttechnik
+Bei unserer Testfahrt auf dem Sterzing Hardtail von M1-Sporttechnik spürten wir nach kürzester Zeit die enorme Kraft des e-Bike Motors, sodass die steilen Streckenabschnitte keine Herausforderung darstellten. Die Beschleunigung bis zur 25 km/h Grenze erfolgt schnell und die Schalterkennung funktioniert tadellos. Bei Tretpausen setzt der Motor wieder kraftvoll ein und beschleunigt gefühlt endlos. Die Schiebehilfe beweist sich in der Praxis, jedoch könnte der Bedienungskopf etwas ergonomischer platziert sein. Der Antrieb hat uns in jeder Situation optimal unterstützt und trotz seiner Kraft ist das Fahrgefühl harmonisch und natürlich.
+Video zum Interview mit TQ auf der Eurobike 2018
+https://youtu.be/7_cQ61RDeho
+
+
+
+
+
+
+Jetzt e-Bike Antrieb von TQ testen​
+Dein e-motion Händler hilft dir und berät dich bei der großen Auswahl an unterschiedlichen e-Bike Elektroantrieben.
+CTA: Jetzt einen e-motion Händler in deiner Nähe finden
